@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+header{
+    background-color:white;
+    background: url(photo/photo.jpg);
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    padding: 15px;
+    background-position: center
+}
+header .logo{
+    float: left;
+    margin: 16px;
+    color: rgb(126, 134, 8);
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+
+
+
+}
+header .logo h1{
+   display: inline-block;
+
+}
+header .logo h1:hover{
+    cursor: pointer; 
+    color: orange;
+}
+header .menu{
+    float: right;
+    color: white;
+    
+
+}
+
+
+header .menu li{
+
+    display: inline-block;
+    padding:0 20px ;
+    font-size: 20px;
+}
+header .menu li:hover{
+    cursor: pointer;
+    color: orange;
+}
+.clear{
+    clear: both;
+}
+
+#basliq{
+    padding: 15em;
+    height:100vh;
+    width: 100%;
+    text-align: center;color: white;
+}
+#basliq h3{
+    font-size: 30px;
+}
+#basliq h1{font-size: 45px;
+
+}
+.btn.btn1{
+    margin-top:15px  40px;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;}
+.btn.btn1:hover{
+    background: rgb(224, 185, 11);
+}
+
+
+    
+
