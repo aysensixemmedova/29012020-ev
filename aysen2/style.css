@@ -1,16 +1,15 @@
 *{
-    margin: 0;
+margin: 0;
     padding:0 ;
     box-sizing: border-box;
 }
 header{
-    background-color:white;
-    background: url(photo/photo.jpg);
+    background:url(photo/photo.jpg);
     width: 100%;
-    height: 700px;
     position: fixed;
-    padding: 15px;
-    background-position: center
+    z-index: 20px;
+    padding: 5px;
+
 }
 header .logo{
     float: left;
@@ -32,12 +31,9 @@ header .logo h1:hover{
 }
 header .menu{
     float: right;
-    color: white;
-    
+    color: white; 
 
 }
-
-
 header .menu li{
 
     display: inline-block;
@@ -52,7 +48,7 @@ header .menu li:hover{
     clear: both;
 }
 
-#basliq{
+#basliq{background: url(photo/photo.jpg);
     padding: 15em;
     height:100vh;
     width: 100%;
@@ -73,7 +69,152 @@ header .menu li:hover{
 .btn.btn1:hover{
     background: rgb(224, 185, 11);
 }
+.clear{
+    clear: both;
+}
+.servic{
+    padding: 4em 0;
+    width: 100%;
+    margin:40px;
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+.servic h1{
+    text-align: center;
 
+}
+.servic p{
+    text-align: center;
+    color:rgb(61, 60, 60);
+    font-size: 19px;
+}
+.servic .ser-itm{
+    float: left;
+    width: 33.333%;
+    border-radius: 5px;
+margin-top: 19px;
+}
+.ser-itm i{
+    background-color:gold;
+    color: white;
+    border-radius: 6em;
+    padding: 30px;
+
+}
+.ser-itm i:hover{
+border-radius: 9em;
 
     
+}
+    .ser-itm h1{color: black;
 
+    }
+    .ser-itm p{
+        color: rgb(77, 76, 76);
+    }
+.clear{
+    clear: both}
+
+.port h1{text-align: center;
+
+}
+    
+     .port img{ 
+        background-color: rgb(226, 167, 78);
+
+}
+.port i{
+    text-align: center;
+}
+.port-item{ text-align: center;
+    float: left;
+    
+}
+.port .port-item{text-align: center;
+
+}
+.port .port-item:hover{
+    opacity: 0.8;
+     visibility: visible;
+    }
+.about{text-align: center;
+    float: left;
+    padding:   45px 50px;
+    margin: auto;
+
+}
+.about  h1{
+    font-size: 70px;
+    text-align: center; 
+}
+.about p{
+    font-size: 15px;text-align: center;
+}
+.about .ilk img{
+    border-radius:100px ;
+    float: right;
+}
+.about .ilk {
+
+}
+.bosluq1{
+width:4em;
+margin: 13em 40px;
+
+}
+.march{
+    text-align: center;
+    float: right;
+    margin: 10em 5em;
+}
+.march img{
+    border-radius: 100px;
+    float: left;
+    text-align: center;
+}
+.bosluq2{
+    width: 4em;
+    margin: 10em 40px;
+}
+
+.dec{
+     text-align: center;
+     float: right;
+     margin: 10em 5em;
+
+}
+.dec img{
+    border-radius: 100px;
+    float: right;
+    text-align: center;
+}
+.bosluq3{
+    margin: 10em 40px;
+    width: 4em;
+}
+.july{
+
+    text-align: center;
+    float: right;
+    margin: 10em 5em;
+}
+.july img{
+    border-radius: 100px;
+    float: left;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+.bosluq4{
+    margin: 10em 5em;
+    width: 4em;}
+.btn1{
+    background: orange;
+    padding:6em 2em;
+border-radius: 100px;
+}
+.btn1:hover{
+    background: rgb(228, 184, 102);
+}
